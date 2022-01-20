@@ -9,7 +9,11 @@ main{
     padding-top: 30px;
 }
 
-
+main:after, main:before{
+    content: " ";
+    clear: both;
+    display: table;
+}
 .item{
     float: left;
     margin: 0.5em;
@@ -17,6 +21,11 @@ main{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
 }
 
 .item-img{
@@ -56,6 +65,7 @@ body{
     right: 0px;
     background-color: white;
     font-size: 0.8rem;
+    overflow: hidden;
 }
 
 .tags{
@@ -104,4 +114,6 @@ body{
 
 .price{
     text-decoration: line-through;
+    opacity: 0.6;
 }
+
