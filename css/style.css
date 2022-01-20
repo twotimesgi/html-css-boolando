@@ -21,6 +21,7 @@ main:after, main:before{
 .item{
     float: left;
     margin: 0.5em;
+    width: calc(33% - 1rem);
 }
 
 body{
@@ -29,7 +30,7 @@ body{
 
 a{
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 .item-img{
@@ -38,10 +39,12 @@ a{
 
 .main-img{
     display: block;
+    width: 100%;
 }
 
 .hover-img{
    display: none;
+   width: 100%;
 }
 
 .item:hover .hover-img{
@@ -54,8 +57,8 @@ a{
 
 .img-box{
     position: relative;
-    height: 400px;
-    margin-bottom: 0.3em;
+    height: 100%%;
+    margin-bottom: 0.3rem;
 }
 
 .fav{
