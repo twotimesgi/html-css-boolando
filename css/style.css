@@ -12,3 +12,23 @@ main{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.item-img{
+    height: 400px;
+}
+
+.main-img{
+    display: block;
+}
+
+.hover-img{
+   display: none;
+}
+
+.item:hover .hover-img{
+    display: block;
+}
+
+.item:hover .main-img{
+    display: none;
+}
