@@ -42,7 +42,6 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
-    margin-bottom: 10px;
 }
 .fav{
     text-align: center;
@@ -58,48 +57,17 @@ body{
 .tags{
     position: absolute;
     bottom: 20px;
-}
-
-.disc, .sost{
-    padding: 5px;
     font-weight: bold;
     color: white;
-    font-size: 0.7rem;
+    font-size: 10px;
 }
 
 .disc{
     background-color: rgb(255, 87, 58);
+    padding: 5px;
 }
 
 .sost{
     background-color: rgb(59, 148, 0);
-}
-
-.item-brand{
-    font-size: 0.7rem;
-    opacity: 0.6;
-}
-
-.item-name{
-    font-size: 0.7rem;
-    text-transform: uppercase;
-}
-
-.item-price{
-    height: auto;
-    line-height: 0.7rem;
-}
-.disc-price, .price{
-    font-size: 0.7rem;
-    line-height: 0.7rem;
-}
-
-.disc-price{
-    color: red;
-    font-weight: 600;
-    margin-right: 0.5rem;
-}
-
-.price{
-    text-decoration:line-through;
+    padding: 5px;
 }
